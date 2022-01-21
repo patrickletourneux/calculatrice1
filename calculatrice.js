@@ -4,7 +4,7 @@
 
 
 var calculToDo ='';
-document.getElementById("scientific").style.backgroundColor="green";
+document.getElementById("scientific").style.backgroundColor="#1DA3B2";
 document.getElementById("normal").style.backgroundColor="white";
 var dict = new Map([["1","1"],["2","2"],["3","3"],["4","4"],["5","5"],["6","6"],
 ["7","7"],["8","8"],["9","9"],["0","0"],
@@ -18,7 +18,7 @@ console.log(dict)
 
 function activScientificMode(){
     document.getElementById("operator2conteneur").hidden=false;
-    document.getElementById("scientific").style.backgroundColor="green";
+    document.getElementById("scientific").style.backgroundColor="#1DA3B2";
     document.getElementById("normal").style.backgroundColor="white";
     for (item of document.getElementById("operator2conteneur").children){
         item.hidden=false;
@@ -27,7 +27,7 @@ function activScientificMode(){
 function desactivScientificMode(){
     document.getElementById("operator2conteneur").hidden=true;
     document.getElementById("scientific").style.backgroundColor="white";
-    document.getElementById("normal").style.backgroundColor="green";
+    document.getElementById("normal").style.backgroundColor="#1DA3B2";
     for (item of document.getElementById("operator2conteneur").children){
         item.hidden=true;
     }
