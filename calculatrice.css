@@ -15,8 +15,10 @@ body{
 #choiceconteneur
 {
     display: flex;
-    width: 300;
+    width: 600;
     padding-bottom: 1rem;
+    justify-content: flex-start;
+
 }
 .modeChoice
 {
@@ -52,7 +54,7 @@ body{
 #operator2conteneur
 {
     display: flex;
-    width: 300;
+    width: 150;
     flex-direction: column;
     justify-content: flex-start;
 }
@@ -85,7 +87,7 @@ body{
     /* display: flex; */
     font-size: 2rem;
     height: 50;
-    width: 300;
+    width: 150;
     background-color: #1DA3B2; 
     text-align: center;
 }
@@ -105,15 +107,16 @@ body{
 {
     display: flex;
     flex-direction: column;
-    font-size: 5rem;
-    width: 750px;
+    font-size: 2rem;
+    width: 600px;
+
     
 }
 #formuleconteneur
 {
     background-color:#1DA3B2;
-    font-size: 5rem;
-    width: 750px;
+    font-size: 2rem;
+    width: 600px;
 }
 
 #formuleconteneurhtml
