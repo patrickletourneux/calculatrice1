@@ -4,6 +4,14 @@
 
 /* ********************boutons choice normal or scientific*/
 
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #bbb;
+}
+
 #choiceconteneur
 {
     display: flex;
