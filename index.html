@@ -1,53 +1,58 @@
-
 <!-- Patrick 07/2021  -->
 <!-- test -->
 
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="calculatrice.css">
-    <title>Calculatrice</title>
-  </head>
-  <body>  
-    <h1 id="Calculatrice">Calculatrice  07/2021 </br></h1>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="calculatrice.css">
+  <title>Calculatrice</title>
+</head>
+
+<body>
+  <header>
+    <h1 id="Calculatrice">Calculatrice 07/2021 </br></h1>
     <div id="choiceconteneur" title="choisir son mode">
-      <div><button id="normal" class="modeChoice" >normal</button></div>
+      <div><button id="normal" class="modeChoice">normal</button></div>
       <div><button id="scientific" class="modeChoice">scientific</button></div>
     </div>
-      <div id=boutonsconteneur>
-        <div id="numberconteneur">
-          <div><button id="number_7" class="number boutonformule">7</button></div>
-          <div><button id="number_8" class="number boutonformule">8</button></div>
-          <div><button id="number_9" class="number boutonformule">9</button></div>
-          <div><button id="number_4" class="number boutonformule">4</button></div>
-          <div><button id="number_5" class="number boutonformule">5</button></div>
-          <div><button id="number_6" class="number boutonformule">6</button></div>
-          <div><button id="number_1" class="number boutonformule">1</button></div>
-          <div><button id="number_2" class="number boutonformule">2</button></div>
-          <div><button id="number_3" class="number boutonformule">3</button></div>
-          <div><button id="number_0" class="number boutonformule">0</button></div>
-          <div><button id="operator_egal" class="operator">=</button></div>
-        </div>
-        <div id="operator1conteneur"> 
-          <div><button id="operator_+" class="operator boutonformule">+</button></div>
-          <div><button id="operator_-" class="operator boutonformule">-</button></div>
-          <div><button id="operator_*" class="operator boutonformule">*</button></div>
-          <div><button id="operator_/" class="operator boutonformule">/</button></div>
-          <div><button id="operator_(" class="operator boutonformule">(</button></div>
-          <div><button id="operator_)" class="operator boutonformule">)</button></div>
-          <div><button id="operator_point" class="operator boutonformule">.</button></div>
-          <div><button id="operator_reset" class="operator">reset</button></div>
-        </div>
-        <div id="operator2conteneur"> 
-          <div><button id="operator_cos" class="operator2 boutonformule">cos</button></div>
-          <div><button id="operator_sin" class="operator2 boutonformule">sin</button></div>
-          <div><button id="operator_tan" class="operator2 boutonformule">tan</button></div>
-          <div><button id="operator_pi" class="operator2 boutonformule">PI</button></div>
-          <div><button id="double_0" class="operator2 boutonformule">00</button></div>
-          <div><button id="operator_memory1" class="operator2">mem1</button></div>
-        </div>
+  </header>
+  <main>
+
+    <div id=boutonsconteneur>
+      <div id="numberconteneur">
+        <div><button id="number_7" class="number boutonformule">7</button></div>
+        <div><button id="number_8" class="number boutonformule">8</button></div>
+        <div><button id="number_9" class="number boutonformule">9</button></div>
+        <div><button id="number_4" class="number boutonformule">4</button></div>
+        <div><button id="number_5" class="number boutonformule">5</button></div>
+        <div><button id="number_6" class="number boutonformule">6</button></div>
+        <div><button id="number_1" class="number boutonformule">1</button></div>
+        <div><button id="number_2" class="number boutonformule">2</button></div>
+        <div><button id="number_3" class="number boutonformule">3</button></div>
+        <div><button id="number_0" class="number boutonformule">0</button></div>
+        <div><button id="operator_egal" class="operator">=</button></div>
       </div>
+      <div id="operator1conteneur">
+        <div><button id="operator_+" class="operator boutonformule">+</button></div>
+        <div><button id="operator_-" class="operator boutonformule">-</button></div>
+        <div><button id="operator_*" class="operator boutonformule">*</button></div>
+        <div><button id="operator_/" class="operator boutonformule">/</button></div>
+        <div><button id="operator_(" class="operator boutonformule">(</button></div>
+        <div><button id="operator_)" class="operator boutonformule">)</button></div>
+        <div><button id="operator_point" class="operator boutonformule">.</button></div>
+        <div><button id="operator_reset" class="operator">reset</button></div>
+      </div>
+      <div id="operator2conteneur">
+        <div><button id="operator_cos" class="operator2 boutonformule">cos</button></div>
+        <div><button id="operator_sin" class="operator2 boutonformule">sin</button></div>
+        <div><button id="operator_tan" class="operator2 boutonformule">tan</button></div>
+        <div><button id="operator_pi" class="operator2 boutonformule">PI</button></div>
+        <div><button id="double_0" class="operator2 boutonformule">00</button></div>
+        <div><button id="operator_memory1" class="operator2">mem1</button></div>
+      </div>
+    </div>
     <div id='feedbackuserconteneur'>
       <div id='formuleconteneurhtml'>
         <!-- <label for="formule">formule</label> -->
@@ -58,12 +63,9 @@
       <!-- <div>Memory</br></div> -->
       <div id="memory1conteneur">Memory_1</div>
     </div>
-    <script type="text/javascript" src="calculatrice.js"></script>
+  </main>
+  <script type="text/javascript" src="calculatrice.js"></script>
 
-  </body>
+</body>
+
 </html>
-
-
-
-
-

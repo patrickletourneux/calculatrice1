@@ -12,6 +12,11 @@ body{
     background-color: #565A6C;
 }
 
+button{
+    border: 0,1px solid black;
+}
+
+
 #choiceconteneur
 {
     display: flex;
@@ -109,14 +114,16 @@ body{
     flex-direction: column;
     font-size: 2rem;
     width: 600px;
-
+    
     
 }
 #formuleconteneur
 {
     background-color:#1DA3B2;
+    border: 1px black solid;
     font-size: 2rem;
-    width: 600px;
+    width: 450px;
+    /* border: 1px solid black; */
 }
 
 #formuleconteneurhtml
@@ -126,14 +133,20 @@ display: flex;
 #resultconteneur
 {
     background-color: #F9F871;
-    /* width: 600px; */
+    width: 450px;
     text-align: end;
+    /* border: 1px solid black; */
 }
 #memory1conteneur
 {
     background-color: #1DA3B2;
-    /* width: 600px; */
+    /* border: 1px solid black; */
+    width: 450px;
 }
+input {
+    border:none;
+}
+
 
 
 /* *****************animations not used*/
